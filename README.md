@@ -23,3 +23,6 @@ flow.response.status_code #状态码
 flow.response.text#返回内容，已解码  
 flow.response.content #返回内容，二进制  
 flow.response.setText()#修改返回内容，不需要转码  
+
+## !!!airtest  
+https://www.mdeditor.tw/pl/2iK6/zh-tw
