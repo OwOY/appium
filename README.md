@@ -29,6 +29,8 @@ x.click()  點擊
 x.get_text()  獲得文本  
 swipe([0, 0], [1, 1]) 滑動螢幕(按比例 左上至右下)  
 x.exist()  確認元素是否存在  
+poco.wait_for_any() 等待元素存在才繼續  
+poco.wait_for_all([]) 等待所有元素存在才繼續  
 
 
 https://www.mdeditor.tw/pl/2iK6/zh-tw  
