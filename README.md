@@ -25,5 +25,10 @@ flow.response.content #返回内容，二进制
 flow.response.setText()#修改返回内容，不需要转码  
 
 ## !!!airtest  
+x.click()  點擊  
+x.get_text()  獲得文本  
+x.exist()  確認元素是否存在  
+
+
 https://www.mdeditor.tw/pl/2iK6/zh-tw  
 https://www.cnblogs.com/wutaotaosin/articles/11396827.html  
