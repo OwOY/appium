@@ -37,5 +37,5 @@ poco.wait_for_all([a,b,c]) 等待所有元素存在才繼續
 
 https://github.com/AirtestProject/Poco  POCO源碼  
 https://www.mdeditor.tw/pl/2iK6/zh-tw  基本介紹  
-https://www.cnblogs.com/wutaotaosin/articles/11396827.html  基本操作 
+https://www.cnblogs.com/wutaotaosin/articles/11396827.html  基本操作  
 https://www.codenong.com/cs105283799/  進階指令  
