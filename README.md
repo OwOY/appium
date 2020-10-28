@@ -27,6 +27,7 @@ flow.response.setText()#修改返回内容，不需要转码
 ## !!!airtest  
 x.click()  點擊  
 x.get_text()  獲得文本  
+swipe([0.5, 0.8], [0.5, 0.7]) 滑動  
 x.exist()  確認元素是否存在  
 
 
