@@ -25,7 +25,7 @@ flow.response.content #返回内容，二进制
 flow.response.setText()#修改返回内容，不需要转码  
 
 ## !!!airtest  
-  
+x.attr(‘desc’)取得特殊屬性值  
 x.click()  點擊  
 x.get_text()  獲得文本  
 swipe([0, 0], [1, 1]) 滑動螢幕(按比例 左上至右下)  
