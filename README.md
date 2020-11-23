@@ -39,3 +39,10 @@ https://github.com/AirtestProject/Poco  POCO源碼
 https://www.mdeditor.tw/pl/2iK6/zh-tw  基本介紹  
 https://www.cnblogs.com/wutaotaosin/articles/11396827.html  基本操作  
 https://www.codenong.com/cs105283799/  進階指令  
+
+
+
+## adb 設置
+### 喚醒媒體庫  
+adb shell "am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///sdcard  
+adb shell "am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file:///sdcard/DCIM/Camera/Video/{video}"  
