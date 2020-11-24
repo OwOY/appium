@@ -25,6 +25,7 @@ flow.response.content #返回内容，二进制
 flow.response.setText()#修改返回内容，不需要转码  
 
 ## !!!airtest  
+auto_setup(__file__, devices = ['Android://127.0.0.1:5037/127.0.0.1:62025?cap_method=JAVACAP^&^&ori_method=ADBORI'])  多設備連接  
 x.attr(‘desc’)取得特殊屬性值  
 x.click()  點擊  
 x.get_text()  獲得文本  
@@ -44,5 +45,6 @@ https://www.codenong.com/cs105283799/  進階指令
 
 ## adb 設置
 ### 喚醒媒體庫  
+
 adb shell "am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///sdcard  
 adb shell "am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file:///sdcard/DCIM/Camera/Video/{video}"  
