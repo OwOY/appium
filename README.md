@@ -44,8 +44,14 @@ https://www.codenong.com/cs105283799/  進階指令
 
 
 
-## adb 設置
+## adb 設置  
+### 連接nox  
+adb -s 127.0.0.1:{port}  
+
 ### 喚醒媒體庫  
 
 adb shell "am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///sdcard  
 adb shell "am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file:///sdcard/DCIM/Camera/Video/{video}"  
+  
+### 強制停止youtube  
+am force-stop com.google.android.youtube
