@@ -3,7 +3,7 @@ https://news.tianyancha.com/ll_7oefn63kop.html
 
 https://www.itread01.com/content/1547310497.html
 
-#mitmdump  
+## mitmdump  
 flow.request.headers #获取所有头信息，包含Host、User-Agent、Content-type等字段  
 flow.request.url #完整的请求地址，包含域名及请求参数，但是不包含放在body里面的请求参数  
 flow.request.pretty_url #同flow.request.url目前没看出什么差别  
